@@ -1,0 +1,20 @@
+[
+    {
+     "id": 1,
+     "description": "proposal 1",
+     "approved": 7429698439.608,
+     "rejected": 16351168934.765,
+     "abstained" : 0,
+     "executed": false,
+     "cancelled": true
+    },
+    {
+     "id": 2,
+     "description": "proposal 2",
+     "approved": 38941200437.087,
+     "rejected": 23289352867.868,
+     "abstained" : 0,
+     "executed": true,
+     "cancelled": false
+    }
+]

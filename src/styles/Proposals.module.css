@@ -1,0 +1,25 @@
+.main {
+    margin-top: 15vh;
+    display: flexbox;
+}
+
+.proposals {
+    margin-top: 10vh;
+    margin-left: 20vw;
+    width: 60vw;
+    background-color: #fff;
+    padding: 30px 0;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #8b5cf6;
+    color: #8b5cf6;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.proposals:hover {
+    background-color: #eee;
+    cursor: pointer;
+}

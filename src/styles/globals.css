@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+
+/* Connect Button properties */
+
+.brand-500{
+    color: rgb(124 58 237);
+}
+
+.bg-brand-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-brand-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(124 58 237 / var(--tw-bg-opacity));
+}
+
+.border-brand-600 {
+    --tw-border-opacity: 1;
+    border-color: rgb(124 58 237 / var(--tw-border-opacity));
+}
+
+.focus\:ring-brand-400:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(167 139 250 / var(--tw-ring-opacity));
+}

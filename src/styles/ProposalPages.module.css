@@ -1,0 +1,73 @@
+.box {
+    margin-top: 5vh;
+    margin-left: 20vw;
+    width: 60vw;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 20px;
+    border-color: #8b5cf6;
+    border-width: 5px;
+    padding: 20px 20px;
+    overflow: auto;
+    font-weight: bold;
+}
+
+.proposal {
+    background-color: #eee;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 2px;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.header {
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.input1 {
+    width: 100%;
+    border-color: #000;
+    border-radius: 1px;
+    border: solid;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-weight: bold;
+    
+}
+
+.input2 {
+    border-color: #000;
+    border-radius: 1px;
+    border: solid;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-weight: bold;
+    
+}
+
+.submit {
+    background-color: #10b981;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: #eee;
+}
+
+.p {
+    color: #888;
+    font-weight: normal;
+    font-size: .8rem;
+}
